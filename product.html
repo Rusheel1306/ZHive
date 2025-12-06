@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZHive - Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container main-nav">
+            <a href="index.html" class="logotext">ZHive</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop All</a></li>
+                <li><a href="order.html">Cart (Order)</a></li>
+            </ul>
+            <img class="logo" src="images/logo.png" alt="ZHive Logo">
+        </nav>
+    </header>
+
+    <main>
+        <section class="container" style="margin-top: 40px; margin-bottom: 60px;">
+            
+            <div class="product-detail-layout">
+                
+                <div class="product-image-container">
+                    <img id="detail-img" src="" alt="Product Image">
+                </div>
+
+                <div class="product-info-container">
+                    <p class="breadcrumbs">Shop > <span id="detail-category">Category</span> > Product</p>
+                    
+                    <h1 id="detail-title" class="product-title-large">Loading...</h1>
+                    <p id="detail-price" class="product-price-large">--</p>
+                    
+                    <p id="detail-desc" class="product-description-long">
+                        Loading description...
+                    </p>
+
+                    <div class="product-options">
+                        <label for="size-select">Select Size:</label>
+                        <select id="size-select" class="form-control" style="width: auto; display: inline-block;">
+                            <option>Small</option>
+                            <option selected>Medium</option>
+                            <option>Large</option>
+                            <option>X-Large</option>
+                        </select>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button id="detail-add-btn" class="btn add-to-cart-btn" style="width: 100%;">Add to Cart</button>
+                    </div>
+
+                    <div class="additional-info">
+                        <ul>
+                            <li>Free Shipping on orders over ₹2000</li>
+                            <li>30 Days Return Policy</li>
+                            <li>Secure Payment</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p> ZHive - Capstone Project By Rusheel Chandra Nirmala</p>
+            <p>Roll No - 2501010391</p>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>

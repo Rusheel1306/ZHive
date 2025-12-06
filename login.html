@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZHive - Login</title>
+    <link rel="stylesheet" href="login.css">
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="container main-nav">
+            <a href="index.html" class="name">ZHive</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop All</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="order.html">Cart (Order)</a></li>
+                <li><a href="login.html" class="active">Login</a></li>
+            </ul>
+        <img class="logo" src="images/logo.png" alt="ZHive Logo">
+        </nav>
+    </header>
+
+    <main class="login-page">
+        <div class="login-form-container">
+            <h2>Sign In to ZHive</h2>
+            <form action="/login-process" method="POST">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+                </div>
+                
+                <button type="submit" class="btn login-btn">Login</button>
+            </form>
+            
+            <div class="forgot-password">
+                <p>Don't have an account? Register Now</p>
+                <p>Forgot Password?</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p> ZHive - Capstone Project By Rusheel Chandra Nirmala</p>
+            <p>Roll No - 2501010391</p>
+        </div>
+    </footer>
+
+<script src="login.js"></script>
+</body>
+</html>
