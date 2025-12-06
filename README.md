@@ -1,5 +1,7 @@
 16 November 2025 :
 for now, 3 pages are developed, but 4 more pages are there, partially done.
+6 December 2025 :
+All files are done with HTML,CSS and JS, few js features like add to cart and signin feature added
 
 ZHive Index Page - Code Explanation
 HTML Structure
